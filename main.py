@@ -108,27 +108,24 @@ colors = [
 time.sleep(3)
 
 
-for c in colors:
-    pyautogui.write('.border-'+c+' {}')
-    pyautogui.press("left")
-    pyautogui.press("enter")
-    pyautogui.write(f'--border-color-default: var(--{c}) !important;')
-    pyautogui.press("down")
-    pyautogui.press("enter")
-    time.sleep(0.1)
-
-
-# for i in range(0, 11):
-#     pyautogui.write(f".border-bottom-{i} "+"{}")
+# for c in colors:
+#     pyautogui.write('.border-'+c+' {}')
 #     pyautogui.press("left")
-#     # time.sleep(0.1)
 #     pyautogui.press("enter")
-#     # time.sleep(0.1)
-#     pyautogui.write(f"--border-width-default: {i}px !important;")
-#     # time.sleep(0.1)
-#     pyautogui.press("enter")
-#     pyautogui.write("border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);")
+#     pyautogui.write(f'--border-color-default: var(--{c}) !important;')
 #     pyautogui.press("down")
-#     # time.sleep(0.1)
 #     pyautogui.press("enter")
 #     time.sleep(0.1)
+
+
+for i in range(0, 11):
+    pyautogui.write(f".opacity-{i}0 "+"{}")
+    pyautogui.press("left")
+    pyautogui.press("enter")
+
+    pyautogui.write(f"opacity: {i}0% !important;")
+
+    pyautogui.press("down")
+    pyautogui.press("enter")
+    pyautogui.press("enter")
+    time.sleep(0.1)

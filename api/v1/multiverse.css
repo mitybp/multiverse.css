@@ -133,6 +133,9 @@
     --border-width-default: 1px;
     --border-color-default: var(--black);
     --border-style-default: solid;
+
+    --breadcrumb-divider: "/";
+    --breadcrumb-divider-color: var(var(--gray-500))
 }
 
 /** DEFAULT SETTINGS */
@@ -154,7 +157,8 @@ a {
         color: var(--blue-400);
     }
 }
-code, code pre, code span{
+
+code, code pre, code span {
     font-family: monospace !important;
     padding: 4px !important;
     background-color: var(--gray-200);
@@ -713,6 +717,50 @@ code, code pre, code span{
     color: var(--black) !important;
 }
 
+.opacity-0 {
+    opacity: 0% !important;
+}
+
+.opacity-10 {
+    opacity: 10% !important;
+}
+
+.opacity-20 {
+    opacity: 20% !important;
+}
+
+.opacity-30 {
+    opacity: 30% !important;
+}
+
+.opacity-40 {
+    opacity: 40% !important;
+}
+
+.opacity-50 {
+    opacity: 50% !important;
+}
+
+.opacity-60 {
+    opacity: 60% !important;
+}
+
+.opacity-70 {
+    opacity: 70% !important;
+}
+
+.opacity-80 {
+    opacity: 80% !important;
+}
+
+.opacity-90 {
+    opacity: 90% !important;
+}
+
+.opacity-100 {
+    opacity: 100% !important;
+}
+
 /** TEXT COLORS */
 
 .text-blue-100 {
@@ -1248,31 +1296,31 @@ code, code pre, code span{
     margin-top: auto !important;
 }
 
-.me-0 {
+.mr-0 {
     margin-right: 0 !important;
 }
 
-.me-1 {
+.mr-1 {
     margin-right: 0.25rem !important;
 }
 
-.me-2 {
+.mr-2 {
     margin-right: 0.5rem !important;
 }
 
-.me-3 {
+.mr-3 {
     margin-right: 1rem !important;
 }
 
-.me-4 {
+.mr-4 {
     margin-right: 1.5rem !important;
 }
 
-.me-5 {
+.mr-5 {
     margin-right: 3rem !important;
 }
 
-.me-auto {
+.mr-auto {
     margin-right: auto !important;
 }
 
@@ -1304,31 +1352,31 @@ code, code pre, code span{
     margin-bottom: auto !important;
 }
 
-.ms-0 {
+.ml-0 {
     margin-left: 0 !important;
 }
 
-.ms-1 {
+.ml-1 {
     margin-left: 0.25rem !important;
 }
 
-.ms-2 {
+.ml-2 {
     margin-left: 0.5rem !important;
 }
 
-.ms-3 {
+.ml-3 {
     margin-left: 1rem !important;
 }
 
-.ms-4 {
+.ml-4 {
     margin-left: 1.5rem !important;
 }
 
-.ms-5 {
+.ml-5 {
     margin-left: 3rem !important;
 }
 
-.ms-auto {
+.ml-auto {
     margin-left: auto !important;
 }
 
@@ -1789,52 +1837,52 @@ code, code pre, code span{
 
 .border-1 {
     --border-width-default: 1px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-2 {
     --border-width-default: 2px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-3 {
     --border-width-default: 3px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-4 {
     --border-width-default: 4px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-5 {
     --border-width-default: 5px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-6 {
     --border-width-default: 6px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-7 {
     --border-width-default: 7px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-8 {
     --border-width-default: 8px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-9 {
     --border-width-default: 9px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-10 {
     --border-width-default: 10px !important;
-    border: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 
@@ -1845,52 +1893,52 @@ code, code pre, code span{
 
 .border-left-1 {
     --border-width-default: 1px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-2 {
     --border-width-default: 2px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-3 {
     --border-width-default: 3px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-4 {
     --border-width-default: 4px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-5 {
     --border-width-default: 5px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-6 {
     --border-width-default: 6px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-7 {
     --border-width-default: 7px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-8 {
     --border-width-default: 8px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-9 {
     --border-width-default: 9px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-left-10 {
     --border-width-default: 10px !important;
-    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-left: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-0 {
@@ -1899,52 +1947,52 @@ code, code pre, code span{
 
 .border-right-1 {
     --border-width-default: 1px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-2 {
     --border-width-default: 2px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-3 {
     --border-width-default: 3px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-4 {
     --border-width-default: 4px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-5 {
     --border-width-default: 5px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-6 {
     --border-width-default: 6px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-7 {
     --border-width-default: 7px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-8 {
     --border-width-default: 8px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-9 {
     --border-width-default: 9px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-right-10 {
     --border-width-default: 10px !important;
-    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-right: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-0 {
@@ -1953,52 +2001,52 @@ code, code pre, code span{
 
 .border-top-1 {
     --border-width-default: 1px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-2 {
     --border-width-default: 2px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-3 {
     --border-width-default: 3px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-4 {
     --border-width-default: 4px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-5 {
     --border-width-default: 5px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-6 {
     --border-width-default: 6px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-7 {
     --border-width-default: 7px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-8 {
     --border-width-default: 8px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-9 {
     --border-width-default: 9px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-top-10 {
     --border-width-default: 10px !important;
-    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-top: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-0 {
@@ -2007,52 +2055,52 @@ code, code pre, code span{
 
 .border-bottom-1 {
     --border-width-default: 1px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-2 {
     --border-width-default: 2px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-3 {
     --border-width-default: 3px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-4 {
     --border-width-default: 4px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-5 {
     --border-width-default: 5px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-6 {
     --border-width-default: 6px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-7 {
     --border-width-default: 7px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-8 {
     --border-width-default: 8px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-9 {
     --border-width-default: 9px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 .border-bottom-10 {
     --border-width-default: 10px !important;
-    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default);
+    border-bottom: var(--border-width-default) var(--border-color-default) var(--border-style-default) !important;
 }
 
 
@@ -2458,4 +2506,36 @@ code, code pre, code span{
 
 .border-white {
     --border-color-default: var(--white) !important;
+}
+
+/** BREADCRUMB */
+ul.breadcrumb{
+    list-style: none !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+}
+li.breadcrumb-item+li.breadcrumb-item::before{
+    content: var(--breadcrumb-divider) !important;
+    float: left !important;
+    padding-right: 10px !important;
+    color: var(--breadcrumb-divider-color) !important;
+}
+
+
+/** BUTTONS */
+button.btn, a.btn{
+    padding: 6px 10px !important;
+    border-radius: 4px !important;
+    background-color: transparent;
+    border: none;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    color: inherit;
+    &:hover{
+        opacity: 0.9 !important;
+        transition: 0.1s !important;
+    }
 }
