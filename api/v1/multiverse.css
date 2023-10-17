@@ -135,7 +135,9 @@
     --border-style-default: solid;
 
     --breadcrumb-divider: "/";
-    --breadcrumb-divider-color: var(var(--gray-500))
+    --breadcrumb-divider-color: var(var(--gray-500));
+
+    --pagination-active-color: var(var(--blue-500));
 }
 
 /** DEFAULT SETTINGS */
@@ -1167,6 +1169,16 @@ code, code pre, code span {
     color: var(--white) !important;
 }
 
+.align-center{
+    text-align: center !important;
+}
+.align-left{
+    text-align: left !important;
+}
+.align-right{
+    text-align: right !important;
+}
+
 
 /** MARGINS AND PADDINGS */
 
@@ -1606,6 +1618,12 @@ code, code pre, code span {
 .radius-10 {
     border-radius: 10px !important;
 }
+.radius-pill{
+    border-radius: 50% !important;
+}
+.radius-100{
+    border-radius: 100px !important;
+}
 
 .radius-top-0 {
     border-top-left-radius: 0px !important;
@@ -1660,6 +1678,14 @@ code, code pre, code span {
 .radius-top-10 {
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
+}
+.radius-top-pill{
+    border-top-right-radius: 50% !important;
+    border-top-left-radius: 50% !important;
+}
+.radius-top-100{
+    border-top-left-radius: 100px !important;
+    border-top-right-radius: 100px !important;
 }
 
 .radius-bottom-0 {
@@ -1717,6 +1743,14 @@ code, code pre, code span {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
 }
+.radius-bottom-pill{
+    border-bottom-right-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+}
+.radius-bottom-100{
+    border-bottom-left-radius: 100px !important;
+    border-bottom-right-radius: 100px !important;
+}
 
 .radius-left-0 {
     border-bottom-left-radius: 0px !important;
@@ -1773,6 +1807,14 @@ code, code pre, code span {
     border-bottom-left-radius: 10px !important;
     border-top-left-radius: 10px !important;
 }
+.radius-left-pill{
+    border-bottom-left-radius: 50% !important;
+    border-top-left-radius: 50% !important;
+}
+.radius-left-100{
+    border-bottom-left-radius: 100px !important;
+    border-top-left-radius: 100px !important;
+}
 
 .radius-right-0 {
     border-bottom-right-radius: 0px !important;
@@ -1828,6 +1870,14 @@ code, code pre, code span {
 .radius-right-10 {
     border-bottom-right-radius: 10px !important;
     border-top-right-radius: 10px !important;
+}
+.radius-right-pill{
+    border-bottom-right-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+}
+.radius-right-100{
+    border-bottom-right-radius: 100px !important;
+    border-top-right-radius: 100px !important;
 }
 
 
@@ -2538,4 +2588,40 @@ button.btn, a.btn{
         opacity: 0.9 !important;
         transition: 0.1s !important;
     }
+}
+
+/** CARDS */
+.card{
+    width: 18rem !important;
+}
+.card-title{
+    font-size: 1.4rem !important;
+}
+.card-subtitle{
+    opacity: 0.8 !important;
+}
+.card-content{
+    margin-top: 6px !important;
+}
+
+
+/** PROGRESS */
+.progress{
+    height: 6px !important;
+    width: 100% !important;
+}
+.progress-bar{
+    height: 6px !important;
+}
+.progress-caption{
+    height: auto !important;
+}
+.progress-caption .progress-bar{
+    height: auto !important;
+    padding: 6px 10px;
+}
+
+/** INPUTS */
+input, textarea{
+    outline: none !important;
 }
